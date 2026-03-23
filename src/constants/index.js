@@ -114,16 +114,14 @@ export const projectsData = [
   {
     id: 1,
     emoji: "🏥",
-    title: "Doctor Appointment System",
+    title: "MedLink",
     description:
       "A multi-role healthcare booking platform enabling secure access for patients, doctors, and admins. Features automated slot allocation, cancellation constraints, and Cashfree payment integration.",
     tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS", "Cashfree API"],
     category: "fullstack",
-    // ⚠️ USER: Add your live demo link here
     liveLink: "#",
-    // ⚠️ USER: Add your GitHub repo link here
     codeLink: "https://github.com/AnshulKumar21/Doctor-Appointment-System",
-    type: "Personal Project",   // Options: "Personal Project" | "Academic Project" | "DSA Project"
+    type: "Personal Project",
     bullets: [
       "Multi-role authentication flows for patients, doctors & admins",
       "Intelligent appointment scheduling with automated slot allocation",
@@ -149,6 +147,25 @@ export const projectsData = [
       "JWT-based authorization with validation middleware",
       "Scalable MongoDB collections for centralized tracking",
       "Analytical reporting on supplier data",
+    ],
+  },
+  {
+    id: 3,
+    emoji: "🎟️",
+    title: "Eventora",
+    description:
+      "A full-stack MERN event management platform where users can browse, register, and pay for events natively. Features an admin dashboard for organizers to create and manage free & paid events, with manual booking confirmation and payment tracking.",
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Nodemailer", "Tailwind CSS"],
+    category: "fullstack",
+    liveLink: "#",
+    codeLink: "https://github.com/AnshulKumar21/Eventora",
+    type: "Personal Project",
+    bullets: [
+      "JWT & bcrypt auth with mandatory 2FA Email OTP for registration and booking",
+      "Role-based access — Admin (create/manage events, confirm bookings) & User (browse/book/cancel)",
+      "Smart booking queue: all requests enter pending state with overbooking protection",
+      "Admin analytics dashboard — live Pending Requests, Total Revenue & Confirmed Clients",
+      "Automated Nodemailer email notifications on booking confirmation",
     ],
   },
 
