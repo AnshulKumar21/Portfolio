@@ -89,10 +89,6 @@ const Hero = () => {
               View My Work
               <span>→</span>
             </a>
-            <a className="btn-outline" href={heroData.resumeLink} target="_blank" rel="noreferrer" download>
-              Download CV
-              <span>↓</span>
-            </a>
             <a className="btn-glass" href={heroData.resumeViewLink} target="_blank" rel="noreferrer">
               View CV
               <span>👁️</span>

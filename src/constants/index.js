@@ -31,7 +31,7 @@ export const heroData = {
     { num: "5+", label: "Certifications" },
   ],
   // ⚠️ USER: Replace with your Google Drive / Dropbox direct-download link to your CV PDF
-  resumeLink: "#",
+  resumeLink: "/Anshul_12325598.pdf",
   // ⚠️ USER: Replace with your Google Drive / Dropbox view link to your CV PDF
   resumeViewLink: "/Anshul_12325598.pdf",
 };
@@ -122,7 +122,7 @@ export const projectsData = [
     // ⚠️ USER: Add your live demo link here
     liveLink: "#",
     // ⚠️ USER: Add your GitHub repo link here
-    codeLink: "https://github.com/AnshulKumar21",
+    codeLink: "https://github.com/AnshulKumar21/Doctor-Appointment-System",
     type: "Personal Project",   // Options: "Personal Project" | "Academic Project" | "DSA Project"
     bullets: [
       "Multi-role authentication flows for patients, doctors & admins",
@@ -142,7 +142,7 @@ export const projectsData = [
     // ⚠️ USER: Add your live demo link here
     liveLink: "#",
     // ⚠️ USER: Add your GitHub repo link here
-    codeLink: "https://github.com/AnshulKumar21",
+    codeLink: "https://github.com/AnshulKumar21/Supplier-Mangement-System",
     type: "Personal Project",   // Options: "Personal Project" | "Academic Project" | "DSA Project"
     bullets: [
       "Supplier onboarding, profile management & admin governance",
